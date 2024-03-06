@@ -1,0 +1,34 @@
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+table td, table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+body {
+  position: relative;
+}
+
+#wait {
+  background-color: white;
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100vw;
+}
+
+.wait {
+  width: 500px;
+}
+.wait p {
+  margin-bottom: 5px;
+}
+
+.content {
+  max-width: 500px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}/*# sourceMappingURL=style.css.map */
